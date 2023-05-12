@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+
+body,html{
+background-image: linear-gradient(to right, rgb(42, 126, 196) ,rgb(113, 183, 240) , rgb(143, 195, 236));
+
+
+}
+
+section{
+    background-color: #ffffff;
+    width: 340px;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:30px;
+border: 1px solid rgb(9, 60, 88);  
+overflow: hidden; 
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+}
+
+#imagem{
+height: 200px;
+width: 100%;
+border-bottom: 1px solid rgb(9, 60, 88);
+}
+
+#div-login{
+height: 100vw;
+padding: 20px;
+
+
+}
+h1{
+text-align: center;
+text-transform: lowercase;
+font-size: 3em;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000000;
+color: #28b6ee;
+font-family: 'Courier New', Courier, monospace;
+margin-bottom: 25px;
+
+/*font-family: 'Braah One', sans-serif;*/
+}
+p{
+margin-bottom: 17px;
+
+
+
+}
+
+#i-email{
+display: inline-block;
+width: 80%;
+margin: left;
+height: 30px;
+margin-bottom: 10px;
+}
+#i-password{
+    display: inline-block;
+    width: 80%;
+    margin: left;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#i-submit{
+width: 49%;
+height: 25px;
+background-color: #28b6ee;
+color: rgb(0, 0, 0);
+}
+#i-button{
+width: 49%;
+height: 25px;
+background-color: #28b6ee;
+color: rgb(0, 0, 0);
+}
+

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+
+body,html{
+background-image: linear-gradient(to right, rgb(42, 126, 196) ,rgb(113, 183, 240) , rgb(143, 195, 236));
+
+
+}
+
+section{
+    background-color: #ffffff;
+    width: 80%;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius:30px;
+border: 1px solid rgb(9, 60, 88);  
+overflow: hidden; 
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+transform: translate(-50%, -50%);
+}
+
+#imagem{
+height: 100%;
+width: 100%;
+border-right: 1px solid rgb(9, 60, 88);
+}
+
+#div-login{
+height: 100%;
+padding: 25px;
+
+
+}
+h1{
+text-align: center;
+
+font-size: 5em;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000000;
+color: #28b6ee;
+font-family: 'Courier New', Courier, monospace;
+margin-top: 80px;
+margin-bottom: 90px;
+text-transform: lowercase;
+/*font-family: 'Braah One', sans-serif;*/
+}
+p{
+margin-bottom: 17px;
+
+
+
+}
+
+#i-email{
+    display: block;
+    width: 100%;
+    margin: left;
+    height: 40px;
+    margin-bottom: 10px;
+}
+#i-password{
+    display: block;
+    width: 100%;
+    margin: left;
+    height: 40px;
+    margin-bottom: 30px;
+}
+#i-submit{
+    width: 49%;
+    height: 30px;
+    background-color: #28b6ee;
+    color: white;
+}
+#i-button{
+    width: 49%;
+    height: 30px;
+    background-color: #28b6ee;
+    color: white;
+}
+
+section > #div-imagem{
+    float: right;
+    width: 50%;
+    height: 100%;
+
+}
+
+section > #div-login{
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
